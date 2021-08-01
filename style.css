@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: row;
+    }
+}
+body{
+    background-color: #8a512b6b;
+}
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 2px 4px 4px #3c3c3c;
+
+}
+
+/* .flex{
+    border: 3px solid #333;
+    background-color: rgb(211, 211, 211);
+    
+} */
+
+
+.items-center {
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.header-img {
+
+    max-width: 25%;
+
+}
+
+.img {
+    max-width: 15vw;
+    max-height: 15vw;
+    margin-left: 4rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+}
+
+
+.left-header {
+  text-align: left;
+  margin-right:-18rem;
+  margin-left: 2rem;
+  
+}
+
+.center-header {
+    align-self: center;
+    text-align: center;
+    padding: 0.4rem;
+
+
+}
+
+.bg {
+    background-image: linear-gradient(to right, #fcaf7c, #97623e, #6b3c1c);
+    border: 6% solid rgb(170, 82, 0);
+    max-width: auto;
+
+}
+
+h1 {
+    background: linear-gradient(to right, #ff9114, #f3df2e, #fff59a);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 5vw;
+
+}
+
+.right-header {
+    align-self: auto;
+}
+
+
+
+
+/* section */
+.fconatiner {
+
+    height: 45vh;
+
+}
+
+.fitem {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.child {
+    margin: 0.5rem;
+}
+
+.in-data textarea {
+
+    width: 15rem;
+    height: 15rem;
+    border: 0.2rem solid #ffe603;
+    background-color: rgb(254, 255, 180);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 2px 2px 4px #3c3c3c;
+}
+
+::placeholder {
+
+    padding: 2rem;
+    font-size: 1rem;
+    color: rgb(71, 71, 71);
+
+}
+
+.out-data {
+
+    width: 15rem;
+    height: 15rem;
+    border: 0.2rem solid #e40000;
+    background-color: rgb(255, 213, 213);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 2px 2px 4px #3c3c3c;
+
+
+}
+
+#btn-translate {
+    margin: 2rem;
+    width: 4rem;
+    height: 4rem;
+    color: rgb(255, 103, 2);
+    background-color: rgb(248, 211, 156);
+    font-size: 4rem;
+    padding-bottom: 5rem;
+    padding-top: 0rem;
+    padding-left: 0.3rem;
+    box-shadow: 2px 2px 4px #3c3c3c;
+
+}
+
+.foot{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: larger;
+    font-weight: bold;
+}
